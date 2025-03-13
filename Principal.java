@@ -34,6 +34,11 @@ public class Principal {
                     default:
                         break;
                 }
+            case 2:
+            System.out.println("Ingrese una palabra: ");
+            String palabra = sc.nextLine();
+           Punto2 p2 = new Punto2();
+           p2.invertirPalabra(palabra);
             
            
         
