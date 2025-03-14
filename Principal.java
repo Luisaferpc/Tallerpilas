@@ -34,6 +34,19 @@ public class Principal {
                     default:
                         break;
                 }
+            case 2:
+            System.out.println("Ingrese una palabra: ");
+            String palabra = sc.nextLine();
+           Punto2 p2 = new Punto2();
+           p2.invertirPalabra(palabra);
+                break;
+            case 3:
+            Punto3 p3 = new Punto3();
+            Stack<Integer> pilaOriginal = p3.Solicitarpila();
+            p3.mostrarPila(pilaOriginal); 
+            p3.mostrarPila2(pilaOriginal, 0); 
+            p3.raizCuadrada(pilaOriginal);
+                break;
             
            
         
